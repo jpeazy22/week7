@@ -1,0 +1,161 @@
+Databases let us save data 
+
+fs.writeFile and fs.readFile can be used to read/write data, but it's not fast enough for most purposes.
+
+The kinds of info we want to store in our database are small pieces of info that change frequently.
+
+ex.  any user log ins for each login. 
+
+Databases are NOT good for storing large files that do not change frequently, such as images and songs.
+-might store a file path to an image  or a link to the image but this is different than storing the image.
+
+Currently there are two different kinds of databases: SQL and NoSQL
+
+SQL is the older database. 
+
+Examples of SQL databases: MySQL (wordpress uses this), MS-SQL (microsoft SQL), PostgreSQL
+
+SQL-based databases store data in a tabular structure with rows and columns, much like a spreadsheet. 
+
+SQL-bases databases are very structured.  Requres a schema.  (need to define what the database will hold and look like.)
+
+SQL: Structured Query Language
+	select * from users where name = $name;  // joanie
+
+Traditionally, SQL-based databases scale vertically most easily.
+SQL-based databases can sacle horizontially, but it's not as easy to set up out-of-the-box.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+NoSQL - the better option.  
+	Since NoSQL is defined mostly as just 'not SQL', there are many different kids of NoSQL databases (e.g. key-value stores, graph-based databases, document-based database)
+
+	Schema is not strictly enforced by the database. You shold still use a schema, but the database itself does not force you to use one.
+
+	Typically faster than SQL databases. Potentially less reliable ... maybe... 
+
+	Are always used with some kind of API/library.  
+	Injection vulnerabilities are much less common.
+	Exception: mongoose 'where' clause.
+
+	mongoose is a library that calls...
+
+MongoDB - does not use schema's so we use mongoose
+
+	written in C++ (has a rep for being very fast), so it's very fast.
+	data is stored in JSON-like sets.  Technically, mongo actually uses BSON: binary JSON.
+
+Start database server - different than web app server.  so same physical machine but different servers.
+
+Within each database, mongo databases are separated into 'collections'.  More or less like a table.  Stores the same type of information as a class. Mongo collections store similar kinds of data as javascript classes.  If you have a User class, that makes the user objects, you might store them un a users colleciton.  There is also no command to create collections.  Just instert into them, and mongo will create collections as needed. 
+
+
+db.kids.insert takes one arguemnt: the object to inster db.kids.find() takes one arguemtn: query object describing what we want to find. 
+
+db.kids.update takes (at least) two arguments: query object describing what we want to modify, and an update object describing how we want to modify that object. 
+** by default update will replace the entire object
+
+By default, update will only update the first query that is found. Use {multi:true} to update multiple documents
+
+Learned how to create data, read data, update data and delete data.  These refer to CRUD  creats, reads and updates the database. 
+
+
+
+COMMAND LINE:
+
+sudo mongod
+
+open a new command line tab
+
+mongo // now in the mongo shell.
+
+show dbs //shows all databases 
+
+use people //people is a database name. 'use' will use an existing database or create a 		//new one if that is not there.  There is no 'create database' command.
+		// the database is stored in the system files of your computer.
+
+db.kids.insert({name:'Alice', job:'baby sitter'}) //kids is now a collection.  just 			// insert into collection.  and if it didn't exist Mongo would create it 			 // on the fly.
+
+db.kids.insert({name:'Bob', job:'dog walker'})
+db.kids.insert({name:'Carlos', job:'baby sitter'})
+
+// now we want to query / retrive info from database
+
+db.kids.find({})
+
+db.kids.find({}).pretty // .pretty makes info easier to read. Mongo automatically 				// creates a unique id for each object.
+
+db.kids.find({ job:'baby sitter'}).pretty // finds all kids with the baby sitting job.
+			// search is case sensitive
+
+db.kids.update({name:'Bob'},{name:'Robert'}) 
+		// make update to data takes two objects.  
+		// by default update will replace the entire object
+
+db.kids.update({name:'Bob'}, {$set: {job: 'baby walker'}}) 
+		// to change only the job and make sure the rest of the object details are not deleted.
+db.kids.find)().pretty()  
+
+db.kids.update({name:'Alice'}, {$set: {name:'Eve'}}) 
+		// to only change name and keep all other info.
+db.kids.find)().pretty()  
+
+db.kids.remove({name:'Alice'})
+
+db.kids.update({job:'baby sitter'}, {$set:{job:'architect'}})  
+		// update will only update the first query that is found.
+db.kids.find().pretty();
+
+db.kids.update({job:'baby sitter'}, {$set:{job:'architect'}}, {mulit:true})  
+		// this will update ALL jobs that are baby sitters to architects
+
+db.kids.drop()
+		// deletes all the kids! 
+
+
+// export the info a JSON
+//exit mongo shell
+~: mongoexport -- db people --collection kids --out export.json
+
+importing and export is done from the main terminal, NOT the MONGO SHELL
+
+~: mongoimport -d people -c kids --file export.json
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
