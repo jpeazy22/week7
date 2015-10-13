@@ -1,0 +1,738 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g', 'nodemon' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.31
+4 verbose node symlink /usr/local/bin/node
+5 verbose cache add [ 'nodemon', '*' ]
+6 verbose cache add name="nodemon" spec="*" args=["nodemon","*"]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '*',
+7 verbose parsed url   path: '*',
+7 verbose parsed url   href: '*' }
+8 verbose addNamed [ 'nodemon', '*' ]
+9 verbose addNamed [ null, '*' ]
+10 silly lockFile fbeb9aa5-nodemon nodemon@*
+11 verbose lock nodemon@* /Users/student/.npm/fbeb9aa5-nodemon.lock
+12 silly addNameRange { name: 'nodemon', range: '*', hasData: false }
+13 verbose url raw nodemon
+14 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon' ]
+15 verbose url resolved https://registry.npmjs.org/nodemon
+16 info trying registry request attempt 1 at 11:28:51
+17 verbose etag "D6T3V2O05ZJEH1VNWQHHD898K"
+18 http GET https://registry.npmjs.org/nodemon
+19 http 200 https://registry.npmjs.org/nodemon
+20 silly registry.get cb [ 200,
+20 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 silly registry.get     etag: '"D2IB5F6Y74X8H7W24V1SPTASX"',
+20 silly registry.get     'content-type': 'application/json',
+20 silly registry.get     'cache-control': 'max-age=60',
+20 silly registry.get     'content-length': '173435',
+20 silly registry.get     'accept-ranges': 'bytes',
+20 silly registry.get     date: 'Tue, 13 Oct 2015 17:28:52 GMT',
+20 silly registry.get     via: '1.1 varnish',
+20 silly registry.get     age: '0',
+20 silly registry.get     connection: 'keep-alive',
+20 silly registry.get     'x-served-by': 'cache-lax1420-LAX',
+20 silly registry.get     'x-cache': 'HIT',
+20 silly registry.get     'x-cache-hits': '1',
+20 silly registry.get     'x-timer': 'S1444757332.227684,VS0,VE86',
+20 silly registry.get     vary: 'Accept' } ]
+21 silly addNameRange number 2 { name: 'nodemon', range: '*', hasData: true }
+22 silly addNameRange versions [ 'nodemon',
+22 silly addNameRange   [ '0.1.4',
+22 silly addNameRange     '0.1.5',
+22 silly addNameRange     '0.1.6',
+22 silly addNameRange     '0.1.7',
+22 silly addNameRange     '0.1.8',
+22 silly addNameRange     '0.2.0',
+22 silly addNameRange     '0.2.1',
+22 silly addNameRange     '0.2.2',
+22 silly addNameRange     '0.3.0',
+22 silly addNameRange     '0.3.1',
+22 silly addNameRange     '0.3.2',
+22 silly addNameRange     '0.4.0',
+22 silly addNameRange     '0.4.1',
+22 silly addNameRange     '0.5.0',
+22 silly addNameRange     '0.5.1',
+22 silly addNameRange     '0.5.2',
+22 silly addNameRange     '0.5.3',
+22 silly addNameRange     '0.5.4',
+22 silly addNameRange     '0.5.5',
+22 silly addNameRange     '0.5.6',
+22 silly addNameRange     '0.5.7',
+22 silly addNameRange     '0.6.0',
+22 silly addNameRange     '0.6.1',
+22 silly addNameRange     '0.6.2',
+22 silly addNameRange     '0.6.3',
+22 silly addNameRange     '0.6.4',
+22 silly addNameRange     '0.6.5',
+22 silly addNameRange     '0.6.6',
+22 silly addNameRange     '0.6.7',
+22 silly addNameRange     '0.6.8',
+22 silly addNameRange     '0.6.9',
+22 silly addNameRange     '0.6.10',
+22 silly addNameRange     '0.6.11',
+22 silly addNameRange     '0.6.12',
+22 silly addNameRange     '0.6.13',
+22 silly addNameRange     '0.6.14',
+22 silly addNameRange     '0.6.15',
+22 silly addNameRange     '0.6.16',
+22 silly addNameRange     '0.6.17',
+22 silly addNameRange     '0.6.18',
+22 silly addNameRange     '0.6.19',
+22 silly addNameRange     '0.6.20',
+22 silly addNameRange     '0.6.21',
+22 silly addNameRange     '0.6.22',
+22 silly addNameRange     '0.6.23',
+22 silly addNameRange     '0.7.0',
+22 silly addNameRange     '0.7.1',
+22 silly addNameRange     '0.7.2',
+22 silly addNameRange     '0.7.3',
+22 silly addNameRange     '0.7.4',
+22 silly addNameRange     '0.7.5',
+22 silly addNameRange     '0.7.6',
+22 silly addNameRange     '0.7.7',
+22 silly addNameRange     '0.7.8',
+22 silly addNameRange     '0.7.10',
+22 silly addNameRange     '0.9.0',
+22 silly addNameRange     '0.9.1',
+22 silly addNameRange     '0.9.2',
+22 silly addNameRange     '0.9.3',
+22 silly addNameRange     '0.9.5',
+22 silly addNameRange     '0.9.6',
+22 silly addNameRange     '0.9.7',
+22 silly addNameRange     '0.9.10',
+22 silly addNameRange     '0.9.11',
+22 silly addNameRange     '0.9.12',
+22 silly addNameRange     '0.9.14',
+22 silly addNameRange     '0.9.16',
+22 silly addNameRange     '0.9.17',
+22 silly addNameRange     '1.0.0',
+22 silly addNameRange     '1.0.1',
+22 silly addNameRange     '1.0.2',
+22 silly addNameRange     '1.0.2-rc',
+22 silly addNameRange     '0.6.10-a',
+22 silly addNameRange     '1.0.2-rc3',
+22 silly addNameRange     '1.0.2-rc4',
+22 silly addNameRange     '1.0.3',
+22 silly addNameRange     '1.0.4',
+22 silly addNameRange     '1.0.5',
+22 silly addNameRange     '1.0.6',
+22 silly addNameRange     '1.0.7',
+22 silly addNameRange     '1.0.8',
+22 silly addNameRange     '1.0.9',
+22 silly addNameRange     '1.0.10',
+22 silly addNameRange     '1.0.11',
+22 silly addNameRange     '1.0.12',
+22 silly addNameRange     '1.0.13',
+22 silly addNameRange     '1.0.14',
+22 silly addNameRange     '1.0.15',
+22 silly addNameRange     '1.0.16',
+22 silly addNameRange     '1.0.17-rc1',
+22 silly addNameRange     '1.0.17-rc2',
+22 silly addNameRange     '1.0.17',
+22 silly addNameRange     '1.0.18',
+22 silly addNameRange     '1.0.19',
+22 silly addNameRange     '1.0.20',
+22 silly addNameRange     '1.1.0-alpha',
+22 silly addNameRange     '1.1.0',
+22 silly addNameRange     '1.1.1',
+22 silly addNameRange     '1.2.0',
+22 silly addNameRange     '1.2.1',
+22 silly addNameRange     '1.3.0-0',
+22 silly addNameRange     '1.3.0-1',
+22 silly addNameRange     '1.3.0-2',
+22 silly addNameRange     '1.3.0-3',
+22 silly addNameRange     '1.3.0-4',
+22 silly addNameRange     '1.3.0-5',
+22 silly addNameRange     '1.3.0-6',
+22 silly addNameRange     '1.3.0-7',
+22 silly addNameRange     '1.3.0',
+22 silly addNameRange     '1.3.1',
+22 silly addNameRange     '1.3.2',
+22 silly addNameRange     '1.3.3',
+22 silly addNameRange     '1.3.5',
+22 silly addNameRange     '1.3.6',
+22 silly addNameRange     '1.3.7',
+22 silly addNameRange     '1.3.8',
+22 silly addNameRange     '1.4.0',
+22 silly addNameRange     '1.4.1',
+22 silly addNameRange     '1.5.0-alpha1',
+22 silly addNameRange     '1.5.0-alpha2',
+22 silly addNameRange     '1.5.0-alpha3',
+22 silly addNameRange     '1.5.0-alpha4',
+22 silly addNameRange     '1.4.2',
+22 silly addNameRange     '1.5.0',
+22 silly addNameRange     '1.5.1',
+22 silly addNameRange     '1.6.0',
+22 silly addNameRange     '1.6.1',
+22 silly addNameRange     '1.7.0',
+22 silly addNameRange     '1.7.1' ] ]
+23 verbose addNamed [ 'nodemon', '1.7.1' ]
+24 verbose addNamed [ '1.7.1', '1.7.1' ]
+25 silly lockFile a001a288-nodemon-1-7-1 nodemon@1.7.1
+26 verbose lock nodemon@1.7.1 /Users/student/.npm/a001a288-nodemon-1-7-1.lock
+27 silly lockFile c5ee11f5-js-org-nodemon-nodemon-1-7-1-tgz https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz
+28 verbose lock https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz /Users/student/.npm/c5ee11f5-js-org-nodemon-nodemon-1-7-1-tgz.lock
+29 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz',
+29 verbose addRemoteTarball   '922633a03b6835c2c29013883be4c7b4fc5f24e4' ]
+30 info retry fetch attempt 1 at 11:28:57
+31 verbose fetch to= /var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/tmp.tgz
+32 http GET https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz
+33 http 200 https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz
+34 verbose tar unpack /var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/tmp.tgz
+35 silly lockFile c9d38891-36249-0-3026591243688017-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/package
+36 verbose lock tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/package /Users/student/.npm/c9d38891-36249-0-3026591243688017-package.lock
+37 silly lockFile 6771e7a2-36249-0-3026591243688017-tmp-tgz tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/tmp.tgz
+38 verbose lock tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/tmp.tgz /Users/student/.npm/6771e7a2-36249-0-3026591243688017-tmp-tgz.lock
+39 silly gunzTarPerm modes [ '755', '644' ]
+40 silly gunzTarPerm extractEntry package.json
+41 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+42 silly gunzTarPerm extractEntry .npmignore
+43 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+46 silly gunzTarPerm extractEntry .travis.yml
+47 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+48 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+49 silly gunzTarPerm modified mode [ 'CODE_OF_CONDUCT.md', 436, 420 ]
+50 silly gunzTarPerm extractEntry CONTRIBUTING.md
+51 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 436, 420 ]
+52 silly gunzTarPerm extractEntry Dockerfile
+53 silly gunzTarPerm modified mode [ 'Dockerfile', 436, 420 ]
+54 silly gunzTarPerm extractEntry .jscsrc
+55 silly gunzTarPerm modified mode [ '.jscsrc', 436, 420 ]
+56 silly gunzTarPerm extractEntry bin/nodemon.js
+57 silly gunzTarPerm modified mode [ 'bin/nodemon.js', 509, 493 ]
+58 silly gunzTarPerm extractEntry doc/arch.md
+59 silly gunzTarPerm modified mode [ 'doc/arch.md', 436, 420 ]
+60 silly gunzTarPerm extractEntry doc/cli/authors.txt
+61 silly gunzTarPerm modified mode [ 'doc/cli/authors.txt', 436, 420 ]
+62 silly gunzTarPerm extractEntry doc/cli/config.txt
+63 silly gunzTarPerm modified mode [ 'doc/cli/config.txt', 436, 420 ]
+64 silly gunzTarPerm extractEntry doc/cli/help.txt
+65 silly gunzTarPerm modified mode [ 'doc/cli/help.txt', 436, 420 ]
+66 silly gunzTarPerm extractEntry doc/cli/logo.txt
+67 silly gunzTarPerm modified mode [ 'doc/cli/logo.txt', 436, 420 ]
+68 silly gunzTarPerm extractEntry doc/cli/topics.txt
+69 silly gunzTarPerm modified mode [ 'doc/cli/topics.txt', 436, 420 ]
+70 silly gunzTarPerm extractEntry doc/cli/usage.txt
+71 silly gunzTarPerm modified mode [ 'doc/cli/usage.txt', 436, 420 ]
+72 silly gunzTarPerm extractEntry doc/cli/whoami.txt
+73 silly gunzTarPerm modified mode [ 'doc/cli/whoami.txt', 436, 420 ]
+74 silly gunzTarPerm extractEntry doc/events.md
+75 silly gunzTarPerm modified mode [ 'doc/events.md', 436, 420 ]
+76 silly gunzTarPerm extractEntry doc/option-parsing-logic.md
+77 silly gunzTarPerm modified mode [ 'doc/option-parsing-logic.md', 436, 420 ]
+78 silly gunzTarPerm extractEntry doc/requireable.md
+79 silly gunzTarPerm modified mode [ 'doc/requireable.md', 436, 420 ]
+80 silly gunzTarPerm extractEntry doc/rules.md
+81 silly gunzTarPerm modified mode [ 'doc/rules.md', 436, 420 ]
+82 silly gunzTarPerm extractEntry doc/sample-nodemon.md
+83 silly gunzTarPerm modified mode [ 'doc/sample-nodemon.md', 436, 420 ]
+84 silly gunzTarPerm extractEntry faq.md
+85 silly gunzTarPerm modified mode [ 'faq.md', 436, 420 ]
+86 silly gunzTarPerm extractEntry lib/index.js
+87 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+88 silly gunzTarPerm extractEntry lib/nodemon.js
+89 silly gunzTarPerm modified mode [ 'lib/nodemon.js', 436, 420 ]
+90 silly gunzTarPerm extractEntry lib/spawn.js
+91 silly gunzTarPerm modified mode [ 'lib/spawn.js', 436, 420 ]
+92 silly gunzTarPerm extractEntry lib/version.js
+93 silly gunzTarPerm modified mode [ 'lib/version.js', 436, 420 ]
+94 silly gunzTarPerm extractEntry lib/cli/index.js
+95 silly gunzTarPerm modified mode [ 'lib/cli/index.js', 436, 420 ]
+96 silly gunzTarPerm extractEntry lib/cli/parse.js
+97 silly gunzTarPerm modified mode [ 'lib/cli/parse.js', 436, 420 ]
+98 silly gunzTarPerm extractEntry lib/config/command.js
+99 silly gunzTarPerm modified mode [ 'lib/config/command.js', 436, 420 ]
+100 silly gunzTarPerm extractEntry lib/config/defaults.js
+101 silly gunzTarPerm modified mode [ 'lib/config/defaults.js', 436, 420 ]
+102 silly gunzTarPerm extractEntry lib/config/exec.js
+103 silly gunzTarPerm modified mode [ 'lib/config/exec.js', 436, 420 ]
+104 silly gunzTarPerm extractEntry lib/config/index.js
+105 silly gunzTarPerm modified mode [ 'lib/config/index.js', 436, 420 ]
+106 silly gunzTarPerm extractEntry lib/config/load.js
+107 silly gunzTarPerm modified mode [ 'lib/config/load.js', 436, 420 ]
+108 silly gunzTarPerm extractEntry lib/help/index.js
+109 silly gunzTarPerm modified mode [ 'lib/help/index.js', 436, 420 ]
+110 silly gunzTarPerm extractEntry lib/monitor/index.js
+111 silly gunzTarPerm modified mode [ 'lib/monitor/index.js', 436, 420 ]
+112 silly gunzTarPerm extractEntry lib/monitor/match.js
+113 silly gunzTarPerm modified mode [ 'lib/monitor/match.js', 436, 420 ]
+114 silly gunzTarPerm extractEntry lib/monitor/run.js
+115 silly gunzTarPerm modified mode [ 'lib/monitor/run.js', 436, 420 ]
+116 silly gunzTarPerm extractEntry lib/monitor/watch.js
+117 silly gunzTarPerm modified mode [ 'lib/monitor/watch.js', 436, 420 ]
+118 silly gunzTarPerm extractEntry lib/rules/add.js
+119 silly gunzTarPerm modified mode [ 'lib/rules/add.js', 436, 420 ]
+120 silly gunzTarPerm extractEntry lib/rules/index.js
+121 silly gunzTarPerm modified mode [ 'lib/rules/index.js', 436, 420 ]
+122 silly gunzTarPerm extractEntry lib/rules/parse.js
+123 silly gunzTarPerm modified mode [ 'lib/rules/parse.js', 436, 420 ]
+124 silly gunzTarPerm extractEntry lib/utils/bus.js
+125 silly gunzTarPerm modified mode [ 'lib/utils/bus.js', 436, 420 ]
+126 silly gunzTarPerm extractEntry lib/utils/clone.js
+127 silly gunzTarPerm modified mode [ 'lib/utils/clone.js', 436, 420 ]
+128 silly gunzTarPerm extractEntry lib/utils/colour.js
+129 silly gunzTarPerm modified mode [ 'lib/utils/colour.js', 436, 420 ]
+130 silly gunzTarPerm extractEntry lib/utils/index.js
+131 silly gunzTarPerm modified mode [ 'lib/utils/index.js', 436, 420 ]
+132 silly gunzTarPerm extractEntry lib/utils/log.js
+133 silly gunzTarPerm modified mode [ 'lib/utils/log.js', 436, 420 ]
+134 silly gunzTarPerm extractEntry lib/utils/merge.js
+135 silly gunzTarPerm modified mode [ 'lib/utils/merge.js', 436, 420 ]
+136 silly gunzTarPerm extractEntry .jshintrc
+137 silly gunzTarPerm modified mode [ '.jshintrc', 436, 420 ]
+138 silly gunzTarPerm extractEntry web/index.js
+139 silly gunzTarPerm modified mode [ 'web/index.js', 436, 420 ]
+140 silly gunzTarPerm extractEntry web/index.html
+141 silly gunzTarPerm modified mode [ 'web/index.html', 436, 420 ]
+142 silly gunzTarPerm extractEntry web/nodemon.svg
+143 silly gunzTarPerm modified mode [ 'web/nodemon.svg', 436, 420 ]
+144 silly lockFile c9d38891-36249-0-3026591243688017-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/package
+145 silly lockFile c9d38891-36249-0-3026591243688017-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/package
+146 silly lockFile 6771e7a2-36249-0-3026591243688017-tmp-tgz tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/tmp.tgz
+147 silly lockFile 6771e7a2-36249-0-3026591243688017-tmp-tgz tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/tmp.tgz
+148 verbose tar pack [ '/Users/student/.npm/nodemon/1.7.1/package.tgz',
+148 verbose tar pack   '/var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/package' ]
+149 verbose tarball /Users/student/.npm/nodemon/1.7.1/package.tgz
+150 verbose folder /var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/package
+151 silly lockFile c9d38891-36249-0-3026591243688017-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/package
+152 verbose lock tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/package /Users/student/.npm/c9d38891-36249-0-3026591243688017-package.lock
+153 silly lockFile e75fca39-nt-npm-nodemon-1-7-1-package-tgz tar:///Users/student/.npm/nodemon/1.7.1/package.tgz
+154 verbose lock tar:///Users/student/.npm/nodemon/1.7.1/package.tgz /Users/student/.npm/e75fca39-nt-npm-nodemon-1-7-1-package-tgz.lock
+155 silly lockFile c9d38891-36249-0-3026591243688017-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/package
+156 silly lockFile c9d38891-36249-0-3026591243688017-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757336249-0.3026591243688017/package
+157 silly lockFile e75fca39-nt-npm-nodemon-1-7-1-package-tgz tar:///Users/student/.npm/nodemon/1.7.1/package.tgz
+158 silly lockFile e75fca39-nt-npm-nodemon-1-7-1-package-tgz tar:///Users/student/.npm/nodemon/1.7.1/package.tgz
+159 silly lockFile 6a23f27d-tudent-npm-nodemon-1-7-1-package /Users/student/.npm/nodemon/1.7.1/package
+160 verbose lock /Users/student/.npm/nodemon/1.7.1/package /Users/student/.npm/6a23f27d-tudent-npm-nodemon-1-7-1-package.lock
+161 silly lockFile 6a23f27d-tudent-npm-nodemon-1-7-1-package /Users/student/.npm/nodemon/1.7.1/package
+162 silly lockFile 6a23f27d-tudent-npm-nodemon-1-7-1-package /Users/student/.npm/nodemon/1.7.1/package
+163 verbose tar unpack /Users/student/.npm/nodemon/1.7.1/package.tgz
+164 silly lockFile 49bad49a-tudent-npm-nodemon-1-7-1-package tar:///Users/student/.npm/nodemon/1.7.1/package
+165 verbose lock tar:///Users/student/.npm/nodemon/1.7.1/package /Users/student/.npm/49bad49a-tudent-npm-nodemon-1-7-1-package.lock
+166 silly lockFile e75fca39-nt-npm-nodemon-1-7-1-package-tgz tar:///Users/student/.npm/nodemon/1.7.1/package.tgz
+167 verbose lock tar:///Users/student/.npm/nodemon/1.7.1/package.tgz /Users/student/.npm/e75fca39-nt-npm-nodemon-1-7-1-package-tgz.lock
+168 silly gunzTarPerm modes [ '755', '644' ]
+169 silly gunzTarPerm extractEntry package.json
+170 silly gunzTarPerm extractEntry .npmignore
+171 silly gunzTarPerm extractEntry README.md
+172 silly gunzTarPerm extractEntry .travis.yml
+173 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+174 silly gunzTarPerm extractEntry CONTRIBUTING.md
+175 silly gunzTarPerm extractEntry Dockerfile
+176 silly gunzTarPerm extractEntry .jshintrc
+177 silly gunzTarPerm extractEntry bin/nodemon.js
+178 silly gunzTarPerm extractEntry doc/arch.md
+179 silly gunzTarPerm extractEntry doc/cli/authors.txt
+180 silly gunzTarPerm extractEntry doc/cli/config.txt
+181 silly gunzTarPerm extractEntry doc/cli/help.txt
+182 silly gunzTarPerm extractEntry doc/cli/logo.txt
+183 silly gunzTarPerm extractEntry doc/cli/topics.txt
+184 silly gunzTarPerm extractEntry doc/cli/usage.txt
+185 silly gunzTarPerm extractEntry doc/cli/whoami.txt
+186 silly gunzTarPerm extractEntry doc/events.md
+187 silly gunzTarPerm extractEntry doc/option-parsing-logic.md
+188 silly gunzTarPerm extractEntry doc/requireable.md
+189 silly gunzTarPerm extractEntry doc/rules.md
+190 silly gunzTarPerm extractEntry doc/sample-nodemon.md
+191 silly gunzTarPerm extractEntry faq.md
+192 silly gunzTarPerm extractEntry lib/index.js
+193 silly gunzTarPerm extractEntry lib/nodemon.js
+194 silly gunzTarPerm extractEntry lib/spawn.js
+195 silly gunzTarPerm extractEntry lib/version.js
+196 silly gunzTarPerm extractEntry lib/cli/index.js
+197 silly gunzTarPerm extractEntry lib/cli/parse.js
+198 silly gunzTarPerm extractEntry lib/config/command.js
+199 silly gunzTarPerm extractEntry lib/config/defaults.js
+200 silly gunzTarPerm extractEntry lib/config/exec.js
+201 silly gunzTarPerm extractEntry lib/config/index.js
+202 silly gunzTarPerm extractEntry lib/config/load.js
+203 silly gunzTarPerm extractEntry lib/help/index.js
+204 silly gunzTarPerm extractEntry lib/monitor/index.js
+205 silly gunzTarPerm extractEntry lib/monitor/match.js
+206 silly gunzTarPerm extractEntry lib/monitor/run.js
+207 silly gunzTarPerm extractEntry lib/monitor/watch.js
+208 silly gunzTarPerm extractEntry lib/rules/add.js
+209 silly gunzTarPerm extractEntry lib/rules/index.js
+210 silly gunzTarPerm extractEntry lib/rules/parse.js
+211 silly gunzTarPerm extractEntry lib/utils/bus.js
+212 silly gunzTarPerm extractEntry lib/utils/clone.js
+213 silly gunzTarPerm extractEntry lib/utils/colour.js
+214 silly gunzTarPerm extractEntry lib/utils/index.js
+215 silly gunzTarPerm extractEntry lib/utils/log.js
+216 silly gunzTarPerm extractEntry lib/utils/merge.js
+217 silly gunzTarPerm extractEntry .jscsrc
+218 silly gunzTarPerm extractEntry web/index.js
+219 silly gunzTarPerm extractEntry web/index.html
+220 silly gunzTarPerm extractEntry web/nodemon.svg
+221 silly lockFile 49bad49a-tudent-npm-nodemon-1-7-1-package tar:///Users/student/.npm/nodemon/1.7.1/package
+222 silly lockFile 49bad49a-tudent-npm-nodemon-1-7-1-package tar:///Users/student/.npm/nodemon/1.7.1/package
+223 silly lockFile e75fca39-nt-npm-nodemon-1-7-1-package-tgz tar:///Users/student/.npm/nodemon/1.7.1/package.tgz
+224 silly lockFile e75fca39-nt-npm-nodemon-1-7-1-package-tgz tar:///Users/student/.npm/nodemon/1.7.1/package.tgz
+225 verbose chmod /Users/student/.npm/nodemon/1.7.1/package.tgz 644
+226 verbose chown /Users/student/.npm/nodemon/1.7.1/package.tgz [ 506, 20 ]
+227 silly lockFile c5ee11f5-js-org-nodemon-nodemon-1-7-1-tgz https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz
+228 silly lockFile c5ee11f5-js-org-nodemon-nodemon-1-7-1-tgz https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz
+229 silly lockFile a001a288-nodemon-1-7-1 nodemon@1.7.1
+230 silly lockFile a001a288-nodemon-1-7-1 nodemon@1.7.1
+231 silly lockFile fbeb9aa5-nodemon nodemon@*
+232 silly lockFile fbeb9aa5-nodemon nodemon@*
+233 info outdated updating [ [ '/usr/local/lib', 'nodemon', '1.2.1', '1.7.1', '*' ] ]
+234 verbose install where,what [ '/usr/local/lib', [ 'nodemon@1.7.1' ] ]
+235 verbose cache add [ 'nodemon@1.7.1', null ]
+236 verbose cache add name=undefined spec="nodemon@1.7.1" args=["nodemon@1.7.1",null]
+237 verbose parsed url { protocol: null,
+237 verbose parsed url   slashes: null,
+237 verbose parsed url   auth: null,
+237 verbose parsed url   host: null,
+237 verbose parsed url   port: null,
+237 verbose parsed url   hostname: null,
+237 verbose parsed url   hash: null,
+237 verbose parsed url   search: null,
+237 verbose parsed url   query: null,
+237 verbose parsed url   pathname: 'nodemon@1.7.1',
+237 verbose parsed url   path: 'nodemon@1.7.1',
+237 verbose parsed url   href: 'nodemon@1.7.1' }
+238 verbose cache add name="nodemon" spec="1.7.1" args=["nodemon","1.7.1"]
+239 verbose parsed url { protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: '1.7.1',
+239 verbose parsed url   path: '1.7.1',
+239 verbose parsed url   href: '1.7.1' }
+240 verbose addNamed [ 'nodemon', '1.7.1' ]
+241 verbose addNamed [ '1.7.1', '1.7.1' ]
+242 silly lockFile a001a288-nodemon-1-7-1 nodemon@1.7.1
+243 verbose lock nodemon@1.7.1 /Users/student/.npm/a001a288-nodemon-1-7-1.lock
+244 verbose url raw nodemon/1.7.1
+245 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon/1.7.1' ]
+246 verbose url resolved https://registry.npmjs.org/nodemon/1.7.1
+247 info trying registry request attempt 1 at 11:28:59
+248 http GET https://registry.npmjs.org/nodemon/1.7.1
+249 http 200 https://registry.npmjs.org/nodemon/1.7.1
+250 silly registry.get cb [ 200,
+250 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+250 silly registry.get     etag: '"D2IB5F6Y74X8H7W24V1SPTASX"',
+250 silly registry.get     'content-type': 'application/json',
+250 silly registry.get     'cache-control': 'max-age=60',
+250 silly registry.get     'content-length': '1860',
+250 silly registry.get     'accept-ranges': 'bytes',
+250 silly registry.get     date: 'Tue, 13 Oct 2015 17:28:59 GMT',
+250 silly registry.get     via: '1.1 varnish',
+250 silly registry.get     age: '0',
+250 silly registry.get     connection: 'keep-alive',
+250 silly registry.get     'x-served-by': 'cache-lax1427-LAX',
+250 silly registry.get     'x-cache': 'MISS',
+250 silly registry.get     'x-cache-hits': '0',
+250 silly registry.get     'x-timer': 'S1444757339.574862,VS0,VE119',
+250 silly registry.get     vary: 'Accept' } ]
+251 silly lockFile c5ee11f5-js-org-nodemon-nodemon-1-7-1-tgz https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz
+252 verbose lock https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz /Users/student/.npm/c5ee11f5-js-org-nodemon-nodemon-1-7-1-tgz.lock
+253 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz',
+253 verbose addRemoteTarball   '922633a03b6835c2c29013883be4c7b4fc5f24e4' ]
+254 info retry fetch attempt 1 at 11:28:59
+255 verbose fetch to= /var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/tmp.tgz
+256 http GET https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz
+257 http 200 https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz
+258 verbose tar unpack /var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/tmp.tgz
+259 silly lockFile a14cc84c-39772-0-7197681518737227-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/package
+260 verbose lock tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/package /Users/student/.npm/a14cc84c-39772-0-7197681518737227-package.lock
+261 silly lockFile cbad5ffb-39772-0-7197681518737227-tmp-tgz tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/tmp.tgz
+262 verbose lock tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/tmp.tgz /Users/student/.npm/cbad5ffb-39772-0-7197681518737227-tmp-tgz.lock
+263 silly gunzTarPerm modes [ '755', '644' ]
+264 silly gunzTarPerm extractEntry package.json
+265 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+266 silly gunzTarPerm extractEntry .npmignore
+267 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+268 silly gunzTarPerm extractEntry README.md
+269 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+270 silly gunzTarPerm extractEntry .travis.yml
+271 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+272 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+273 silly gunzTarPerm modified mode [ 'CODE_OF_CONDUCT.md', 436, 420 ]
+274 silly gunzTarPerm extractEntry CONTRIBUTING.md
+275 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 436, 420 ]
+276 silly gunzTarPerm extractEntry Dockerfile
+277 silly gunzTarPerm modified mode [ 'Dockerfile', 436, 420 ]
+278 silly gunzTarPerm extractEntry .jscsrc
+279 silly gunzTarPerm modified mode [ '.jscsrc', 436, 420 ]
+280 silly gunzTarPerm extractEntry bin/nodemon.js
+281 silly gunzTarPerm modified mode [ 'bin/nodemon.js', 509, 493 ]
+282 silly gunzTarPerm extractEntry doc/arch.md
+283 silly gunzTarPerm modified mode [ 'doc/arch.md', 436, 420 ]
+284 silly gunzTarPerm extractEntry doc/cli/authors.txt
+285 silly gunzTarPerm modified mode [ 'doc/cli/authors.txt', 436, 420 ]
+286 silly gunzTarPerm extractEntry doc/cli/config.txt
+287 silly gunzTarPerm modified mode [ 'doc/cli/config.txt', 436, 420 ]
+288 silly gunzTarPerm extractEntry doc/cli/help.txt
+289 silly gunzTarPerm modified mode [ 'doc/cli/help.txt', 436, 420 ]
+290 silly gunzTarPerm extractEntry doc/cli/logo.txt
+291 silly gunzTarPerm modified mode [ 'doc/cli/logo.txt', 436, 420 ]
+292 silly gunzTarPerm extractEntry doc/cli/topics.txt
+293 silly gunzTarPerm modified mode [ 'doc/cli/topics.txt', 436, 420 ]
+294 silly gunzTarPerm extractEntry doc/cli/usage.txt
+295 silly gunzTarPerm modified mode [ 'doc/cli/usage.txt', 436, 420 ]
+296 silly gunzTarPerm extractEntry doc/cli/whoami.txt
+297 silly gunzTarPerm modified mode [ 'doc/cli/whoami.txt', 436, 420 ]
+298 silly gunzTarPerm extractEntry doc/events.md
+299 silly gunzTarPerm modified mode [ 'doc/events.md', 436, 420 ]
+300 silly gunzTarPerm extractEntry doc/option-parsing-logic.md
+301 silly gunzTarPerm modified mode [ 'doc/option-parsing-logic.md', 436, 420 ]
+302 silly gunzTarPerm extractEntry doc/requireable.md
+303 silly gunzTarPerm modified mode [ 'doc/requireable.md', 436, 420 ]
+304 silly gunzTarPerm extractEntry doc/rules.md
+305 silly gunzTarPerm modified mode [ 'doc/rules.md', 436, 420 ]
+306 silly gunzTarPerm extractEntry doc/sample-nodemon.md
+307 silly gunzTarPerm modified mode [ 'doc/sample-nodemon.md', 436, 420 ]
+308 silly gunzTarPerm extractEntry faq.md
+309 silly gunzTarPerm modified mode [ 'faq.md', 436, 420 ]
+310 silly gunzTarPerm extractEntry lib/index.js
+311 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+312 silly gunzTarPerm extractEntry lib/nodemon.js
+313 silly gunzTarPerm modified mode [ 'lib/nodemon.js', 436, 420 ]
+314 silly gunzTarPerm extractEntry lib/spawn.js
+315 silly gunzTarPerm modified mode [ 'lib/spawn.js', 436, 420 ]
+316 silly gunzTarPerm extractEntry lib/version.js
+317 silly gunzTarPerm modified mode [ 'lib/version.js', 436, 420 ]
+318 silly gunzTarPerm extractEntry lib/cli/index.js
+319 silly gunzTarPerm modified mode [ 'lib/cli/index.js', 436, 420 ]
+320 silly gunzTarPerm extractEntry lib/cli/parse.js
+321 silly gunzTarPerm modified mode [ 'lib/cli/parse.js', 436, 420 ]
+322 silly gunzTarPerm extractEntry lib/config/command.js
+323 silly gunzTarPerm modified mode [ 'lib/config/command.js', 436, 420 ]
+324 silly gunzTarPerm extractEntry lib/config/defaults.js
+325 silly gunzTarPerm modified mode [ 'lib/config/defaults.js', 436, 420 ]
+326 silly gunzTarPerm extractEntry lib/config/exec.js
+327 silly gunzTarPerm modified mode [ 'lib/config/exec.js', 436, 420 ]
+328 silly gunzTarPerm extractEntry lib/config/index.js
+329 silly gunzTarPerm modified mode [ 'lib/config/index.js', 436, 420 ]
+330 silly gunzTarPerm extractEntry lib/config/load.js
+331 silly gunzTarPerm modified mode [ 'lib/config/load.js', 436, 420 ]
+332 silly gunzTarPerm extractEntry lib/help/index.js
+333 silly gunzTarPerm modified mode [ 'lib/help/index.js', 436, 420 ]
+334 silly gunzTarPerm extractEntry lib/monitor/index.js
+335 silly gunzTarPerm modified mode [ 'lib/monitor/index.js', 436, 420 ]
+336 silly gunzTarPerm extractEntry lib/monitor/match.js
+337 silly gunzTarPerm modified mode [ 'lib/monitor/match.js', 436, 420 ]
+338 silly gunzTarPerm extractEntry lib/monitor/run.js
+339 silly gunzTarPerm modified mode [ 'lib/monitor/run.js', 436, 420 ]
+340 silly gunzTarPerm extractEntry lib/monitor/watch.js
+341 silly gunzTarPerm modified mode [ 'lib/monitor/watch.js', 436, 420 ]
+342 silly gunzTarPerm extractEntry lib/rules/add.js
+343 silly gunzTarPerm modified mode [ 'lib/rules/add.js', 436, 420 ]
+344 silly gunzTarPerm extractEntry lib/rules/index.js
+345 silly gunzTarPerm modified mode [ 'lib/rules/index.js', 436, 420 ]
+346 silly gunzTarPerm extractEntry lib/rules/parse.js
+347 silly gunzTarPerm modified mode [ 'lib/rules/parse.js', 436, 420 ]
+348 silly gunzTarPerm extractEntry lib/utils/bus.js
+349 silly gunzTarPerm modified mode [ 'lib/utils/bus.js', 436, 420 ]
+350 silly gunzTarPerm extractEntry lib/utils/clone.js
+351 silly gunzTarPerm modified mode [ 'lib/utils/clone.js', 436, 420 ]
+352 silly gunzTarPerm extractEntry lib/utils/colour.js
+353 silly gunzTarPerm modified mode [ 'lib/utils/colour.js', 436, 420 ]
+354 silly gunzTarPerm extractEntry lib/utils/index.js
+355 silly gunzTarPerm modified mode [ 'lib/utils/index.js', 436, 420 ]
+356 silly gunzTarPerm extractEntry lib/utils/log.js
+357 silly gunzTarPerm modified mode [ 'lib/utils/log.js', 436, 420 ]
+358 silly gunzTarPerm extractEntry lib/utils/merge.js
+359 silly gunzTarPerm modified mode [ 'lib/utils/merge.js', 436, 420 ]
+360 silly gunzTarPerm extractEntry .jshintrc
+361 silly gunzTarPerm modified mode [ '.jshintrc', 436, 420 ]
+362 silly gunzTarPerm extractEntry web/index.js
+363 silly gunzTarPerm modified mode [ 'web/index.js', 436, 420 ]
+364 silly gunzTarPerm extractEntry web/index.html
+365 silly gunzTarPerm modified mode [ 'web/index.html', 436, 420 ]
+366 silly gunzTarPerm extractEntry web/nodemon.svg
+367 silly gunzTarPerm modified mode [ 'web/nodemon.svg', 436, 420 ]
+368 silly lockFile a14cc84c-39772-0-7197681518737227-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/package
+369 silly lockFile a14cc84c-39772-0-7197681518737227-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/package
+370 silly lockFile cbad5ffb-39772-0-7197681518737227-tmp-tgz tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/tmp.tgz
+371 silly lockFile cbad5ffb-39772-0-7197681518737227-tmp-tgz tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/tmp.tgz
+372 verbose tar pack [ '/Users/student/.npm/nodemon/1.7.1/package.tgz',
+372 verbose tar pack   '/var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/package' ]
+373 verbose tarball /Users/student/.npm/nodemon/1.7.1/package.tgz
+374 verbose folder /var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/package
+375 silly lockFile a14cc84c-39772-0-7197681518737227-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/package
+376 verbose lock tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/package /Users/student/.npm/a14cc84c-39772-0-7197681518737227-package.lock
+377 silly lockFile e75fca39-nt-npm-nodemon-1-7-1-package-tgz tar:///Users/student/.npm/nodemon/1.7.1/package.tgz
+378 verbose lock tar:///Users/student/.npm/nodemon/1.7.1/package.tgz /Users/student/.npm/e75fca39-nt-npm-nodemon-1-7-1-package-tgz.lock
+379 silly lockFile a14cc84c-39772-0-7197681518737227-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/package
+380 silly lockFile a14cc84c-39772-0-7197681518737227-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-27996-Wta5MAzK/1444757339772-0.7197681518737227/package
+381 silly lockFile e75fca39-nt-npm-nodemon-1-7-1-package-tgz tar:///Users/student/.npm/nodemon/1.7.1/package.tgz
+382 silly lockFile e75fca39-nt-npm-nodemon-1-7-1-package-tgz tar:///Users/student/.npm/nodemon/1.7.1/package.tgz
+383 silly lockFile 6a23f27d-tudent-npm-nodemon-1-7-1-package /Users/student/.npm/nodemon/1.7.1/package
+384 verbose lock /Users/student/.npm/nodemon/1.7.1/package /Users/student/.npm/6a23f27d-tudent-npm-nodemon-1-7-1-package.lock
+385 silly lockFile 6a23f27d-tudent-npm-nodemon-1-7-1-package /Users/student/.npm/nodemon/1.7.1/package
+386 silly lockFile 6a23f27d-tudent-npm-nodemon-1-7-1-package /Users/student/.npm/nodemon/1.7.1/package
+387 verbose tar unpack /Users/student/.npm/nodemon/1.7.1/package.tgz
+388 silly lockFile 49bad49a-tudent-npm-nodemon-1-7-1-package tar:///Users/student/.npm/nodemon/1.7.1/package
+389 verbose lock tar:///Users/student/.npm/nodemon/1.7.1/package /Users/student/.npm/49bad49a-tudent-npm-nodemon-1-7-1-package.lock
+390 silly lockFile e75fca39-nt-npm-nodemon-1-7-1-package-tgz tar:///Users/student/.npm/nodemon/1.7.1/package.tgz
+391 verbose lock tar:///Users/student/.npm/nodemon/1.7.1/package.tgz /Users/student/.npm/e75fca39-nt-npm-nodemon-1-7-1-package-tgz.lock
+392 silly gunzTarPerm modes [ '755', '644' ]
+393 silly gunzTarPerm extractEntry package.json
+394 silly gunzTarPerm extractEntry .npmignore
+395 silly gunzTarPerm extractEntry README.md
+396 silly gunzTarPerm extractEntry .travis.yml
+397 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+398 silly gunzTarPerm extractEntry CONTRIBUTING.md
+399 silly gunzTarPerm extractEntry Dockerfile
+400 silly gunzTarPerm extractEntry .jshintrc
+401 silly gunzTarPerm extractEntry bin/nodemon.js
+402 silly gunzTarPerm extractEntry doc/arch.md
+403 silly gunzTarPerm extractEntry doc/cli/authors.txt
+404 silly gunzTarPerm extractEntry doc/cli/config.txt
+405 silly gunzTarPerm extractEntry doc/cli/help.txt
+406 silly gunzTarPerm extractEntry doc/cli/logo.txt
+407 silly gunzTarPerm extractEntry doc/cli/topics.txt
+408 silly gunzTarPerm extractEntry doc/cli/usage.txt
+409 silly gunzTarPerm extractEntry doc/cli/whoami.txt
+410 silly gunzTarPerm extractEntry doc/events.md
+411 silly gunzTarPerm extractEntry doc/option-parsing-logic.md
+412 silly gunzTarPerm extractEntry doc/requireable.md
+413 silly gunzTarPerm extractEntry doc/rules.md
+414 silly gunzTarPerm extractEntry doc/sample-nodemon.md
+415 silly gunzTarPerm extractEntry faq.md
+416 silly gunzTarPerm extractEntry lib/index.js
+417 silly gunzTarPerm extractEntry lib/nodemon.js
+418 silly gunzTarPerm extractEntry lib/spawn.js
+419 silly gunzTarPerm extractEntry lib/version.js
+420 silly gunzTarPerm extractEntry lib/cli/index.js
+421 silly gunzTarPerm extractEntry lib/cli/parse.js
+422 silly gunzTarPerm extractEntry lib/config/command.js
+423 silly gunzTarPerm extractEntry lib/config/defaults.js
+424 silly gunzTarPerm extractEntry lib/config/exec.js
+425 silly gunzTarPerm extractEntry lib/config/index.js
+426 silly gunzTarPerm extractEntry lib/config/load.js
+427 silly gunzTarPerm extractEntry lib/help/index.js
+428 silly gunzTarPerm extractEntry lib/monitor/index.js
+429 silly gunzTarPerm extractEntry lib/monitor/match.js
+430 silly gunzTarPerm extractEntry lib/monitor/run.js
+431 silly gunzTarPerm extractEntry lib/monitor/watch.js
+432 silly gunzTarPerm extractEntry lib/rules/add.js
+433 silly gunzTarPerm extractEntry lib/rules/index.js
+434 silly gunzTarPerm extractEntry lib/rules/parse.js
+435 silly gunzTarPerm extractEntry lib/utils/bus.js
+436 silly gunzTarPerm extractEntry lib/utils/clone.js
+437 silly gunzTarPerm extractEntry lib/utils/colour.js
+438 silly gunzTarPerm extractEntry lib/utils/index.js
+439 silly gunzTarPerm extractEntry lib/utils/log.js
+440 silly gunzTarPerm extractEntry lib/utils/merge.js
+441 silly gunzTarPerm extractEntry .jscsrc
+442 silly gunzTarPerm extractEntry web/index.js
+443 silly gunzTarPerm extractEntry web/index.html
+444 silly gunzTarPerm extractEntry web/nodemon.svg
+445 silly lockFile 49bad49a-tudent-npm-nodemon-1-7-1-package tar:///Users/student/.npm/nodemon/1.7.1/package
+446 silly lockFile 49bad49a-tudent-npm-nodemon-1-7-1-package tar:///Users/student/.npm/nodemon/1.7.1/package
+447 silly lockFile e75fca39-nt-npm-nodemon-1-7-1-package-tgz tar:///Users/student/.npm/nodemon/1.7.1/package.tgz
+448 silly lockFile e75fca39-nt-npm-nodemon-1-7-1-package-tgz tar:///Users/student/.npm/nodemon/1.7.1/package.tgz
+449 verbose chmod /Users/student/.npm/nodemon/1.7.1/package.tgz 644
+450 verbose chown /Users/student/.npm/nodemon/1.7.1/package.tgz [ 506, 20 ]
+451 silly lockFile c5ee11f5-js-org-nodemon-nodemon-1-7-1-tgz https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz
+452 silly lockFile c5ee11f5-js-org-nodemon-nodemon-1-7-1-tgz https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz
+453 silly lockFile a001a288-nodemon-1-7-1 nodemon@1.7.1
+454 silly lockFile a001a288-nodemon-1-7-1 nodemon@1.7.1
+455 silly resolved [ { name: 'nodemon',
+455 silly resolved     homepage: 'http://nodemon.io',
+455 silly resolved     author: { name: 'Remy Sharp', url: 'http://github.com/remy' },
+455 silly resolved     bin: { nodemon: './bin/nodemon.js' },
+455 silly resolved     engines: { node: '>=0.8' },
+455 silly resolved     repository: { type: 'git', url: 'https://github.com/remy/nodemon.git' },
+455 silly resolved     description: 'Simple monitor script for use during development of a node.js app.',
+455 silly resolved     keywords:
+455 silly resolved      [ 'monitor',
+455 silly resolved        'development',
+455 silly resolved        'restart',
+455 silly resolved        'autoload',
+455 silly resolved        'reload',
+455 silly resolved        'terminal' ],
+455 silly resolved     preferGlobal: 'true',
+455 silly resolved     license: 'MIT',
+455 silly resolved     main: './lib/nodemon',
+455 silly resolved     scripts:
+455 silly resolved      { coverage: 'istanbul cover _mocha -- --timeout 30000 --ui bdd --reporter list test/**/*.test.js',
+455 silly resolved        lint: 'jscs lib/**/*.js -v',
+455 silly resolved        ':spec': 'node_modules/.bin/mocha --timeout 30000 --ui bdd test/**/*.test.js',
+455 silly resolved        test: 'npm run lint && npm run spec',
+455 silly resolved        spec: 'for FILE in test/**/*.test.js; do echo $FILE; ./node_modules/.bin/mocha --timeout 30000 $FILE; if [ $? -ne 0 ]; then exit 1; fi; sleep 1; done',
+455 silly resolved        web: 'node web',
+455 silly resolved        'semantic-release': 'semantic-release pre && npm publish && semantic-release post' },
+455 silly resolved     devDependencies:
+455 silly resolved      { async: '1.4.2',
+455 silly resolved        'coffee-script': '~1.7.1',
+455 silly resolved        connect: '~2.19.1',
+455 silly resolved        istanbul: '~0.2.10',
+455 silly resolved        jscs: '2.1.1',
+455 silly resolved        mocha: '2.3.3',
+455 silly resolved        should: '~4.0.0',
+455 silly resolved        'semantic-release': '4.3.5' },
+455 silly resolved     dependencies:
+455 silly resolved      { chokidar: '1.1.0',
+455 silly resolved        debug: '2.2.0',
+455 silly resolved        'es6-promise': '3.0.2',
+455 silly resolved        'lodash.defaults': '3.1.2',
+455 silly resolved        minimatch: '~0.3.0',
+455 silly resolved        'ps-tree': '~0.0.3',
+455 silly resolved        touch: '1.0.0',
+455 silly resolved        undefsafe: '0.0.3',
+455 silly resolved        'update-notifier': '0.5.0' },
+455 silly resolved     version: '1.7.1',
+455 silly resolved     readme: '![nodemon logo](http://nodemon.io/nodemon.svg)\n\n# nodemon\n\n[![Donate](https://img.shields.io/badge/donate-%20%E2%9D%A4%20-green.svg)](https://www.paypal.me/rem)\n\nFor use during development of a node.js based application.\n\nnodemon will watch the files in the directory in which nodemon was started, and if any files change, nodemon will automatically restart your node application.\n\nnodemon does **not** require *any* changes to your code or method of development. nodemon simply wraps your node application and keeps an eye on any files that have changed. Remember that nodemon is a replacement wrapper for `node`, think of it as replacing the word "node" on the command line when you run your script.\n\n[![NPM version](https://badge.fury.io/js/nodemon.svg)](https://npmjs.org/package/nodemon)\n[![Travis Status](https://travis-ci.org/remy/nodemon.svg?branch=master)](https://travis-ci.org/remy/nodemon)\n\n# Installation\n\nEither through forking or by using [npm](http://npmjs.org) (the recommended way):\n\n    npm install -g nodemon\n\nAnd nodemon will be installed in to your bin path. Note that as of npm v1, you must explicitly tell npm to install globally as nodemon is a command line utility.\n\n# Usage\n\nnodemon wraps your application, so you can pass all the arguments you would normally pass to your app:\n\n    nodemon [your node app]\n\nFor CLI options, use the `-h` (or `--help`) argument:\n\n    nodemon -h\n\nUsing nodemon is simple, if my application accepted a host and port as the arguments, I would start it as so:\n\n    nodemon ./server.js localhost 8080\n\nAny output from this script is prefixed with `[nodemon]`, otherwise all output from your application, errors included, will be echoed out as expected.\n\nnodemon also supports running and monitoring [coffee-script](http://coffeescript.org/) apps:\n\n    nodemon server.coffee\n\nIf no script is given, nodemon will test for a `package.json` file and if found, will run the file associated with the *main* property ([ref](https://github.com/remy/nodemon/issues/14)).\n\nYou can also pass the debug flag to node through the command line as you would normally:\n\n    nodemon --debug ./server.js 80\n\nIf you have a `package.json` file for your app, you can omit the main script entirely and nodemon will read the `package.json` for the `main` property and use that value as the app.\n\nnodemon will also search for the `scripts.start` property in `package.json` (as of nodemon 1.1.x).\n\nAlso check out the [FAQ](https://github.com/remy/nodemon/blob/master/faq.md) or [issues](https://github.com/remy/nodemon/issues) for nodemon.\n\n## Automatic re-running\n\nnodemon was originally written to restart hanging processes such as web servers, but now supports apps that cleanly exit. If your script exits cleanly, nodemon will continue to monitor the directory (or directories) and restart the script if there are any changes.\n\n## Manual restarting\n\nWhilst nodemon is running, if you need to manually restart your application, instead of stopping and restart nodemon, you can simply type `rs` with a carriage return, and nodemon will restart your process.\n\n## Config files\n\nnodemon supports local and global configuration files. These are named `nodemon.json` and can be located in the current working directory or in your home directory.\n\nThe specificity is as follows, so that a command line argument will always override the config file settings:\n\n- command line arguments\n- local config\n- global config\n\nA config file can take any of the command line arguments as JSON key values, for example:\n\n    {\n      "verbose": true,\n      "ignore": ["*.test.js", "fixtures/*"],\n      "execMap": {\n        "rb": "ruby",\n        "pde": "processing --sketch={{pwd}} --run"\n      }\n    }\n\nThe above `nodemon.json` file might be my global config so that I have support for ruby files and processing files, and I can simply run `nodemon demo.pde` and nodemon will automatically know how to run the script even though out of the box support for processing scripts.\n\nA further example of options can be seen in [sample-nodemon.md](https://github.com/remy/nodemon/blob/master/doc/sample-nodemon.md)\n\n*This section needs better documentation, but for now you can also see `nodemon --help config` ([also here](https://github.com/remy/nodemon/blob/master/doc/cli/config.txt))*.\n\n## Using nodemon as a module\n\nPlease see [doc/requireable.md](doc/requireable.md)\n\n## Running non-node scripts\n\nnodemon can also be used to execute and monitor other programs. nodemon will read the file extension of the script being run and monitor that extension instead of .js if there\'s no .nodemonignore:\n\n    nodemon --exec "python -v" ./app.py\n\nNow nodemon will run `app.py` with python in verbose mode (note that if you\'re not passing args to the exec program, you don\'t need the quotes), and look for new or modified files with the `.py` extension.\n\n### Default executables\n\nUsing the `nodemon.json` config file, you can define your own default executables using the `execMap` property. This is particularly useful if you\'re working with a language that isn\'t supported by default by nodemon.\n\nTo add support for nodemon to know about the .pl extension (for Perl), the nodemon.json file would add:\n\n    {\n      "execMap": {\n         "pl": "perl"\n      }\n    }\n\nNow running the following, nodemon will know to use `perl` as the executable:\n\n    nodemon script.pl\n\nIt\'s generally recommended to use the global `nodemon.json` to add your own `execMap` options. However, if there\'s a common default that\'s missing, this can be merged in to the project so that nodemon supports it by default, by changing [default.js](https://github.com/remy/nodemon/blob/master/lib/config/defaults.js) and sending a pull request.\n\n## Monitoring multiple directories\n\nBy default nodemon monitors the current working directory. If you want to take control of that option, use the `--watch` option to add specific paths:\n\n    nodemon --watch app --watch libs app/server.js\n\nNow nodemon will only restart if there are changes in the `./app` or `./libs` directory. By default nodemon will traverse sub-directories, so there\'s no need in explicitly including sub-directories.\n\n## Specifying extension watch list\n\nBy default, nodemon looks for files with the `.js`, `.coffee`, `.litcoffee`, and `.json` extensions. If you use the `--exec` option and monitor `app.py` nodemon will monitor files with the extension of `.py`. However, you can specify your own list with the `-e` (or `--ext`) switch like so:\n\n    nodemon -e js,jade\n\nNow nodemon will restart on any changes to files in the directory (or subdirectories) with the extensions .js, .jade.\n\n## Ignoring files\n\nBy default, nodemon will only restart when a `.js` JavaScript file changes. In some cases you will want to ignore some specific files, directories or file patterns, to prevent nodemon from prematurely restarting your application.\n\nThis can be done via the command line:\n\n    nodemon --ignore lib/ --ignore tests/\n\nOr specific files can be ignored:\n\n    nodemon --ignore lib/app.js\n\nPatterns can also be ignored (but be sure to quote the arguments):\n\n    nodemon --ignore \'lib/*.js\'\n\nNote that by default, nodemon will ignore the `.git`, `node_modules`, `bower_components` and `.sass-cache` directories and *add* your ignored patterns to the list. If you want to indeed watch a directory like `node_modules`, you need to [overriding the underlying default ignore rules](https://github.com/remy/nodemon/blob/master/faq.md#overriding-the-underlying-default-ignore-rules).\n\n## Application isn\'t restarting\n\nIn some networked environments (such as a container running nodemon reading across a mounted drive), you will need to use the `legacyWatch: true` which enabled Chokidar\'s polling.\n\nVia the CLI, use either `--legacy-watch` or `-L` for short:\n\n    nodemon -L\n\nThough this should be a last resort as it will poll every file it can find.\n\n## Delaying restarting\n\nIn some situations, you may want to wait until a number of files have changed. The timeout before checking for new file changes is 1 second. If you\'re uploading a number of files and it\'s taking some number of seconds, this could cause your app to restart multiple times unnecessarily.\n\nTo add an extra throttle, or delay restarting, use the `--delay` command:\n\n    nodemon --delay 10 server.js\n\nFor more precision, milliseconds can be specified.  Either as a float:\n\n    nodemon --delay 2.5 server.js\n\nOr using the time specifier (ms):\n\n    nodemon --delay 2500ms server.js\n\nThe delay figure is number of seconds (or milliseconds, if specified) to delay before restarting. So nodemon will only restart your app the given number of seconds after the *last* file change.\n\n## Controlling shutdown of your script\n\nnodemon sends a kill signal to your application when it sees a file update. If you need to clean up on shutdown inside your script you can capture the kill signal and handle it yourself.\n\nThe following example will listen once for the `SIGUSR2` signal (used by nodemon to restart), run the clean up process and then kill itself for nodemon to continue control:\n\n    process.once(\'SIGUSR2\', function () {\n      gracefulShutdown(function () {\n        process.kill(process.pid, \'SIGUSR2\');\n      });\n    });\n\nNote that the `process.kill` is *only* called once your shutdown jobs are complete. Hat tip to [Benjie Gillam](http://www.benjiegillam.com/2011/08/node-js-clean-restart-and-faster-development-with-nodemon/) for writing this technique up.\n\n## Triggering events when nodemon state changes\n\nIf you want growl like notifications when nodemon restarts or to trigger an action when an event happens, then you can either `require` nodemon or simply add event actions to your `nodemon.json` file.\n\nFor example, to trigger a notification on a Mac when nodemon restarts, `nodemon.json` looks like this:\n\n```json\n{\n  "events": {\n    "restart": "osascript -e \'display notification \\"app restarted\\" with title \\"nodemon\\"\'"\n  }\n}\n```\n\nA full list of available events is listed on the [event states wiki](https://github.com/remy/nodemon/wiki/Events#states). Note that you can bind to both states and messages.\n\n## Pipe output to somewhere else\n\n```js\nnodemon({\n  script: ...,\n  stdout: false // important: this tells nodemon not to output to console\n}).on(\'readable\', function() { // the `readable` event indicates that data is ready to pick up\n  this.stdout.pipe(fs.createWriteStream(\'output.txt\'));\n  this.stderr.pipe(fs.createWriteStream(\'err.txt\'));\n});\n```\n\n## Using io.js for nodemon\n\nIf you *only* have io.js installed (and the default install creates a symlink from `node` to `iojs`), then nodemon will work just fine out of the box (or [should](https://github.com/remy/nodemon/issues/468)).\n\nIf you\'ve got *both* node and io.js installed, then it\'s easy! You can either edit the local `nodemon.json` file (in your working directory) or in your `$HOME` directory containing:\n\n```json\n{\n  "execMap": {\n    "js": "iojs"\n  }\n}\n```\n\nNow you nodemon will use [io.js](https://iojs.org/) with JavaScript files instead of node.\n\n## Using nodemon in your gulp workflow\n\nCheck out the [gulp-nodemon](https://github.com/JacksonGariety/gulp-nodemon) plugin to integrate nodemon with the rest of your project\'s gulp workflow.\n\n## Using nodemon in your Grunt workflow\n\nCheck out the [grunt-nodemon](https://github.com/ChrisWren/grunt-nodemon) plugin to integrate nodemon with the rest of your project\'s grunt workflow.\n\n## Pronunciation\n\n> nodemon, is it pronunced: node-mon, no-demon or node-e-mon (like pokémon)?\n\nWell...I\'ve been asked this many times before. I like that I\'ve been asked this before. There\'s been bets as to which one it actually is.\n\nThe answer is simple, but possibly frustrating. I\'m not saying (how I pronounce it). It\'s up to you to call it as you like. All answers are correct :)\n\n## FAQ\n\nSee the [FAQ](https://github.com/remy/nodemon/blob/master/faq.md) and please add your own questions if you think they would help others.\n\n# License\n\nMIT [http://rem.mit-license.org](http://rem.mit-license.org)\n',
+455 silly resolved     readmeFilename: 'README.md',
+455 silly resolved     bugs: { url: 'https://github.com/remy/nodemon/issues' },
+455 silly resolved     _id: 'nodemon@1.7.1',
+455 silly resolved     dist: { shasum: '3c32b5d8a780ada0c0ad270f442f511c093a7bcc' },
+455 silly resolved     _from: 'nodemon@1.7.1',
+455 silly resolved     _resolved: 'https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz' } ]
+456 info install nodemon@1.7.1 into /usr/local/lib
+457 info installOne nodemon@1.7.1
+458 info /usr/local/lib/node_modules/nodemon unbuild
+459 info preuninstall nodemon@1.2.1
+460 info uninstall nodemon@1.2.1
+461 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild nodemon@1.2.1
+462 verbose /usr/local/bin,[object Object] binRoot
+463 info postuninstall nodemon@1.2.1
+464 info /usr/local/lib/node_modules/nodemon unbuild
+465 info preuninstall nodemon@1.2.1
+466 info uninstall nodemon@1.2.1
+467 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild nodemon@1.2.1
+468 verbose /usr/local/bin,[object Object] binRoot
+469 info postuninstall nodemon@1.2.1
+470 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/nodemon'
+470 error error rolling back  nodemon@1.7.1 { [Error: EACCES, unlink '/usr/local/lib/node_modules/nodemon']
+470 error error rolling back   errno: 3,
+470 error error rolling back   code: 'EACCES',
+470 error error rolling back   path: '/usr/local/lib/node_modules/nodemon' }
+471 error Error: EACCES, unlink '/usr/local/lib/node_modules/nodemon'
+471 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/nodemon']
+471 error   errno: 3,
+471 error   code: 'EACCES',
+471 error   path: '/usr/local/lib/node_modules/nodemon' }
+472 error Please try running this command again as root/Administrator.
+473 error System Darwin 14.5.0
+474 error command "node" "/usr/local/bin/npm" "update" "-g" "nodemon"
+475 error cwd /Users/student/projects/week7/mongodb
+476 error node -v v0.10.31
+477 error npm -v 1.3.11
+478 error path /usr/local/lib/node_modules/nodemon
+479 error code EACCES
+480 error errno 3
+481 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/nodemon'
+482 verbose exit [ 3, true ]
