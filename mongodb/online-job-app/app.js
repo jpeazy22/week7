@@ -1,7 +1,8 @@
 // Requires \\
 var express = require('express');
 var bodyParser = require('body-parser');
-
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/JPeazzys');
 // Create Express App Object \\
 var app = express();
 
@@ -16,6 +17,10 @@ app.get('/', function(req, res) {
 	res.sendFile('html/index.html', {root : './public'});
 });
 
+app.get('/success', function(req, res){
+	res.send('Thanks for being submissive.');
+})
+
 // displays a list of applicants
 app.get('/applicants', function(req, res){
 	res.sendFile('html/applicants.html', {root : './public'});
@@ -26,8 +31,9 @@ app.post('/applicant', function(req, res){
 	console.log(req.body)
 	// Here is where you need to get the data
 	// from the post body and store it in the database
-	res.send('No funciona');
+	res.redirect('/success');
 });
+
 
 
 
